@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.card {
+  width: 380px;
+  padding: 45px 40px;
+  background-color: #ffffff;
+  border-radius: 5px !important;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-weight: bold !important;
+  margin-bottom: 40px !important;
+  color: #2E4220 !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input {
+  background-color: #ffffff;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin: 8px 0 12px;
+}
+
+.keepSignedInLabel {
+  color: #2E4220 !important;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.forgotLink {
+  color: #2E4220 !important;
+  font-weight: bold !important;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.loginBtn {
+  background-color: #2E4220 !important;
+  color: #ccddbb !important;
+  flex: 1;
+  text-transform: none;
+  border-radius: 25px;
+  padding: 8px 0;
+  font-weight: bold !important;
+}
+
+.registerBtn {
+  border-color: #2E4220 !important;
+  color:  #2E4220 !important;
+  flex: 1;
+  text-transform: none;
+  border-radius: 25px;
+  padding: 8px 0;
+  font-weight: bold !important;
+}
+
+.input :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: #ccc; /* Default border */
+}
+
+.input :global(.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline) {
+  border-color:#a8bd93 !important; /* Greenish focus border */
+}
+
+.input :global(.MuiInputBase-input) {
+  color: #2E4220; /* Optional: input text color */
+}
+
+.input :global(.MuiInputLabel-root.Mui-focused) {
+  color: #2E4220 !important; /* Optional: label color when focused */
+}

@@ -1,0 +1,68 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 24px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.msg {
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.logoutBtn {
+  background-color: #e53935 !important;
+  color: white !important;
+  padding: 7px 19px !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  border-color: red !important;
+}
+
+.logoutBtn:hover {
+  background-color: #c62828 !important;
+}
+
+.msgbox {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 16px;
+  color: #363101;
+  font-weight: 500;
+  font-family: 'Comic Neue', cursive;
+  animation: popIn 0.6s ease-out;
+}
+
+@keyframes popIn{
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

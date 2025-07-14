@@ -1,0 +1,35 @@
+/* -------- NAVBAR -------- */
+.appBar {
+  background-color: #ffffff !important;
+  color: #2E4220 !important;
+}
+
+.toolBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userName {
+  font-weight: bold !important;
+}
+
+.logoutBtn {
+  text-transform: none !important;
+  color: #2E4220 !important;
+  font-weight: bold !important;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+
+.welcomeText {
+  color: #2E4220 !important;
+  font-weight: bold !important;
+  margin-bottom: 24px !important;
+}
