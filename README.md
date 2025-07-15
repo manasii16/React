@@ -10,4 +10,4 @@ This repository contains multiple React-based projects, each developed in its ow
 | practice-branch     | Basic React practice components          |
 | news-app-branch     | A News App built with React + API calls  |
 | goal-tracker-branch | Goal Tracker app using HOC pattern       |
-| travel-log-branch   | Travel Log Planner with routing & state  |
+
