@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 1300px;           
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  /* background-color: #fdfdfd; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.listHeading {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #b31217;
+  border-bottom: 3px solid #b31217;
+  display: inline-block;
+  padding-bottom: 4px;
+}
