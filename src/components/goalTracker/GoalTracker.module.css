@@ -1,0 +1,69 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff ;
+  border: 1px solid #dcdcdc;
+  border-radius: 14px !important;
+  overflow: hidden;
+  transition: background 0.25s ease, transform 0.25s ease;
+  
+}
+
+.cardDone {
+  /* background: #fdfaff !important;         */
+  /* border-color: #B06AFF; */
+  transform: scale(1.015);
+  
+}
+
+.pointsPopup {
+  position: absolute;
+  top: -10px;
+  right: 12px;
+  background: #fff59d;
+  color: #5d4037;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 999px;
+  animation: riseFade 1s ease-out forwards;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+@keyframes riseFade {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-28px);
+    opacity: 0;
+  }
+}
+
+.habitName {
+  font-weight: 600;
+  flex: 1;
+}
+
+.buttonTodo {
+  color: #9e9e9e !important;
+}
+
+.buttonDone,.buttonDone:hover {
+  color: #388e3c !important;
+}
+
+
+.delete_button {
+  color: gray !important;
+}
+
+.delete_button:hover {
+  color: #b71c1c !important;
+}
+.pointsNegative {
+  background: #ffcdd2;
+  color: #b71c1c;
+}

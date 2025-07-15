@@ -1,0 +1,11 @@
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px !important;
+  margin-top: 50px !important;
+}
+
+.innerStack {
+  width: 100%;
+  max-width: 480px; 
+}
