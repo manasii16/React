@@ -6,7 +6,6 @@ This repository contains multiple React-based projects, each developed in its ow
 
 | Branch Name         | Project Description                     |
 |---------------------|------------------------------------------|
-| main                | Documentation and overview               |
 | practice-branch     | Basic React practice components          |
 | news-app-branch     | A News App built with React + API calls  |
 | goal-tracker-branch | Goal Tracker app using HOC pattern       |
